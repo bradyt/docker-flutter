@@ -51,3 +51,5 @@ RUN flutter config --no-analytics
 RUN git clone -b androidx https://github.com/bradyt/flutter_wtf
 
 WORKDIR flutter_wtf
+
+RUN flutter build apk
